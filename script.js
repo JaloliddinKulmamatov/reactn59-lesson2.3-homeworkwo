@@ -25,12 +25,12 @@ function createCard(data) {
 
 const backTop = document.getElementById('backTop');
 
-// function backtop() {
-//     if (window.scrollY >= 20) {
-//         backTop.style.display = "flex";
-//     } else {
-//         backTop.style.display = "none";
-//     }
-// }
+function backtop() {
+    if (window.scrollY >= 20) {
+        backTop.style.display = "flex";
+    } else {
+        backTop.style.display = "none";
+    }
+}
 
-// window.addEventListener('scroll', backtop);
+window.addEventListener('scroll', backtop);

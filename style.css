@@ -9,10 +9,9 @@
     display: grid;
 }
 
-#backtop {
+#backTop {
     padding: 10px;
     background-color: #000;
-    display: none;
     position: fixed;
     bottom: 0;
     right: 0;
